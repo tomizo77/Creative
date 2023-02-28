@@ -1,83 +1,99 @@
-*{
-    margin: 0;
-    padding: 0;
-
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-image: url(theater.jpeg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
+body {
+  overflow: hidden;
 }
 
-
- .navbar-brand{
-    margin-top: 10px;
-    margin-left: 20px;
- }
-
- 
- .navbar-right{
-    position: fixed;
-    right: 5px;
-    margin-top: 5px;
-    }
-
-  .title{
-    display: inline-block;
-    font-size: 25px;
-    color: white;
-    font-family: initial;
-  }
-
-  .navbar-nav {
-    list-style-type: none;
-    }
+.title {
+  display: inline-block;
+  font-size: 25px;
+  color: white;
+  font-family: initial;
+}
 
 li {
-    float: left;
-    }
-  
-  li a {
-    padding: 20px;
-    text-decoration: none;
-    }
+  float: left;
+}
 
-    .buffer{
-      padding: 50px;
-    }
-    p{
-      font-size: 30px;
-      font-family: initial;
-      color: white;
-      text-align: center;
-    }
+li a {
+  padding: 20px;
+  text-decoration: none;
+}
 
-    .btn{
-     text-align: center;
-      
-    }
+.buffer {
+  padding: 50px;
+}
+p {
+  font-size: 30px;
+  font-family: initial;
+  color: rgb(179, 172, 172);
+  font-weight: 700;
+  text-align: center;
+  margin-top: -15rem;
+}
 
-    .buffer2{
-      padding: 150px;
-
-    }
-
-    button{
-      background-color: rgb(145, 42, 42);
+button {
+  background-color: rgb(145, 42, 42);
   border: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  border-radius: 20px;
-    }
+  display: flex;
+  font-size: 16px;
+  margin: 4px 2px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: -15rem auto;
+}
 
-    button:hover{
-      cursor: pointer;
-      background-color: rgb(66, 3, 3);
-    }
-    
+button:hover {
+  cursor: pointer;
+  background-color: rgb(66, 3, 3);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+p {
+  position: absolute;
+  top: 24rem;
+}
+
+.slides {
+  width: 100vw;
+  height: 100vh;
+}
+
+.logo {
+  width: 120px;
+  position: absolute;
+  top: 0.7rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 1rem;
+  right: -1rem;
+  font-size: 1.5rem;
+}
+
+a {
+  color: #ffffff;
+}
+
+li {
+  list-style: none;
+  margin: 0 1rem;
+}
