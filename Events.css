@@ -1,0 +1,72 @@
+#title{
+    padding: 0.5rem 10rem 7rem;
+   
+    
+   }
+   
+
+   .navbar-brand{
+    height: 2rem;
+   }
+   
+   .navbar-nav{
+       margin-left: auto;
+   }
+
+   .nav-item{
+    padding: 20px;
+   }
+
+   .tittle-row{
+    padding-top: 20px;
+   }
+
+   .titleParagraph{
+    padding: 2rem 1rem;
+       line-height: 1.5;
+       font-size: 1.5rem;
+       font-family: serif;
+   }
+   
+   .myParagraph{
+       text-align: center;
+       line-height: 1.5;
+       font-size: 1.5rem;
+       font-family: serif;
+
+
+   }
+
+   .btn{
+    margin-left: 10rem;
+   }
+
+   .title-image{
+    width: 100%;
+   }
+
+   #features{
+    padding:2rem  7rem;
+}
+
+.features-image{
+    width: 100%;
+}
+
+h3{
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    font-family: serif;  
+}
+
+#footer{
+    background-color: rgb(232, 232, 240);
+   text-align: center;
+   padding:3rem 1rem;
+}
+.footer-icon{
+padding: 15px;
+
+}
